@@ -4,7 +4,6 @@ import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Home, Heart, User } from 'lucide-react';
-import { useAuth } from '@/lib/auth-context';
 
 export default function MainNav() {
   const pathname = usePathname();
@@ -49,5 +48,6 @@ export default function MainNav() {
     </nav>
   );
 }
+
 
 
