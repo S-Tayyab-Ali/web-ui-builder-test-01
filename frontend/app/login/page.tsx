@@ -51,7 +51,7 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <div className="text-5xl mb-3">🍴</div>
-          <CardTitle className="text-3xl">Food Finder</CardTitle>
+          <CardTitle className="text-3xl">Food Finder 01</CardTitle>
           <CardDescription>
             {isLogin ? 'Sign in to discover restaurants' : 'Create an account to get started'}
           </CardDescription>
